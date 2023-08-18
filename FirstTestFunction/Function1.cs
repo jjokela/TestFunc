@@ -17,7 +17,7 @@ namespace FirstTestFunction
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
-            log.LogInformation("C# HTTP trigger function processed a request. Can't trigger build manually from AZ DevOps unless I pay more money lol");
+            log.LogInformation("C# HTTP trigger function processed a request. Can't trigger build manually from AZ DevOps unless I pay more money lol :(");
 
             string name = req.Query["name"];
 
