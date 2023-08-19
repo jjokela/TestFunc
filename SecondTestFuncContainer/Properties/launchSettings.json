@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "SecondTestFuncContainer": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7173"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33505,
+      "useSSL": false
+    }
+  }
+}
